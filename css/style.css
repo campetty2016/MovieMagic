@@ -1,0 +1,323 @@
+/*
+    Author: Candace Petty
+    File Name: style.css
+    Date: 11/16/15
+*/
+
+
+/* Styles Everything */
+*{
+    margin:0;
+}
+
+/* Styles Defaults for h1 - h6, the Paragraph Tags, and Label Tags */
+h1, h2, h3, h4, h5, h6, p, label{
+    margin-bottom: 24px;
+    font-family: 'Trochut', cursive;
+    letter-spacing: 1px;
+}
+
+/* Styles HTML */
+html{
+    height: 100%;
+}
+
+/* Styles Body */
+body{
+    height: 100%;
+    background-color: #FFC030;
+}
+
+/* Styles Logo*/
+h1{
+    font-style: italic;
+    font-size: 4vw;
+    color: #FFA227;
+    text-shadow: 1px 1px 1px #ffffff, 2px 2px 2px #FFA227, 3px 3px 3px #3860B8;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+/* Styles Headings for the Different Sections */
+h2{
+    color: #244282;
+    padding-top: 20px;
+    font-size: 3vw;
+    text-shadow: 1px 1px 1px #ffffff, 2px 2px 2px #FFA227;
+    font-style: italic;
+}
+
+/* Styles Subheadings for Sections  */
+h3{
+    color: #244282;
+    text-shadow: 1px 1px 1px #FFC030 ;
+    font-size: 2.5vw;
+}
+
+/* Styles Every Other Letter in the Logo */
+span{
+    color:#FFC030;
+}
+
+/* Styles Navigation */
+nav{
+    width: 100%;
+    background-color: rgba(36, 66, 130, .75);
+    display: flex;
+    position: fixed;
+    display: -webkit-flex;
+    border-bottom: 2px groove #FFC030;
+    z-index: 99;
+}
+
+/* Styles Menu Buttons (Navigation Links in the Header) */
+.button{
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Trochut', cursive;
+    font-size: 2.5vw;
+    padding: 20px;
+    color: #FFC030;
+    text-shadow: 1px 1px 1px #FFA227;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+/* Styles Menu Buttons in the Active and Visited States */
+.button:active, .button:visited{
+    text-decoration: none;
+}
+
+/* Styles Menu Buttons on Hover */
+.button:hover{
+    background-color: rgba(36, 66, 130, .8);
+    border-radius: 1em;
+    text-shadow: 1px 1px 1px #FFA227, 1px 1px 1px #FFC030;
+}
+
+/* Styles Sections */
+section{
+    width: 100%;
+    height: 100%;
+    background-color: #FF8B0E;
+    padding: 100px 20px 20px 20px;;
+    box-sizing: border-box;
+    border: 2px groove #3860B8;
+    overflow: hidden;
+}
+
+    /* Styles Every Other Section (Odd Sections) */
+    section:nth-child(odd){
+        width: 100%;
+        height: 100%;
+        border: 2px groove #3860B8;
+        background-color: #FFA227;
+        overflow: hidden;
+    }
+
+/* Styles Movie Gallery */
+#Gallery{
+    margin: auto;
+    padding: 25px;
+    padding-right: 2px;
+    overflow: auto;
+    width: 91%;
+    border: 2px groove #3860B8;
+    height: 100%;
+    background-color: rgba(36, 66, 130, .75);
+    border-radius: 2%;
+}
+
+/* Styles Horizontal Lines */
+hr{
+    width: 99%;
+    margin: auto;
+    border: 1px solid #FFC030;
+    margin-bottom: 20px;
+}
+
+/* Styles Paragraphs */
+p{
+    font-size: 2vw;
+    font-weight: bold;
+    color: #242282;
+    text-shadow: 1px 1px 1px #FFA227, 1px 1px 1px #FFC030;
+}
+
+/* Styles Movie Images */
+img{
+    width: 10vw;
+    height: 14vw;
+    margin: auto;
+    margin-left: 35px;
+    margin-top: 15px;
+    border: 2px outset #FFC030;
+}
+
+/* Styles New Movie Releases */
+.New{
+    width: 15vw;
+    height: 20vw;
+    z-index: 0;
+}
+
+/* Styles Movie Images on Hover */
+img:hover, .New:hover{
+  border: 2px groove #3860B8;
+  cursor: pointer;
+}
+
+/* Styles Footer */
+footer{
+    background-color: rgba(36, 66, 130, .85);
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    height: 65px;
+    font-size: 1vw;
+    border-radius: 1em;
+    border: 2px groove #3860B8;
+}
+
+/* Styles Copyright Text */
+h4{
+    font-style: italic;
+    font-size: 2vw;
+    color: #FFA227;
+    text-shadow: 1px 1px 1px #ffffff, 2px 2px 2px #FFA227, 3px 3px 3px #3860B8;
+}
+    /* Styles Copyright Symbol */
+    #copysymbol{
+        font-size: 1vw;
+    }
+
+    /* Styles Smaller Copyright Text */
+    .copyright{
+        font-style: italic;
+        font-size: 2vw;
+        color: #FFA227;
+        text-shadow: 1px 1px 1px #ffffff, 2px 2px 2px #FFA227, 3px 3px 3px #3860B8;
+        letter-spacing: 1px;
+    }
+
+/* Styles Contact Information Heading*/
+h5{
+    font-size: 3.5vw;
+    text-decoration: none;
+    text-indent: 20px;
+    color: #FFC030;
+    text-shadow: 2px 2px 2px #244282;
+}
+
+/* Styles Form */
+form{
+    width: 55%;
+    float: left;
+    clear: right;
+}
+
+/* Styles Fieldset */
+fieldset{
+    border: 2px groove #FFC030;
+    border-radius: 1em;
+    width: 65%;
+    height: 40%;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+/* Styles Inputs and TextArea */
+input, textarea{
+    background-color: #FFC030;
+    color: #244282;
+    padding: 5px;
+    font-weight: bold;
+    padding-left: 10px;
+    border: 2px groove #FFA227;
+    border-radius: 1em;
+    width: 250px;
+    font-size: 1.2em;
+    font-family:'Trochut',cursive;
+}
+    /* Styles Inputs, TextArea, and Submit Button on Focus */
+    input[type="text"]:focus, textarea:focus, input[type="submit"]:focus {
+        outline: none;
+        border: 2px groove #3860B8;
+    }
+
+
+    /* Styles Placeholder Text for Google Chrome */
+    ::-webkit-input-placeholder{
+        color: #244282;
+        letter-spacing: 1px;
+    }
+
+    /* Styles Placeholder Text for Mozilla */
+    ::-moz-placeholder{
+        color: #244282;
+        letter-spacing: 1px;
+    }
+
+    /* Styles Labels for Input Boxes */
+    label{
+        color: #244282;
+        text-shadow: 1px 1px 1px #FFC030 ;
+        font-size: 2.5vw;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+
+/* Styles Submit Button */
+#submit{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 150px;
+    padding: 5px;
+    font-size: 1.3em;
+    background-color: #244282;
+    color: #FFC030;
+    font-weight: bold;
+    height: 40px;
+    letter-spacing: 1px;
+}
+
+/* Styles Contact Information Container */
+#ContactInfo{
+    width: 38%;
+    padding: 15px;
+    background-color: rgba(36, 66, 130, .75);
+    border-radius: 2em;
+    border: 2px groove #3860B8 ;
+    float: right;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+/* Styles Contact Information Text */
+.info{
+    color: #FFC030;
+    text-shadow: 1px 1px 1px #FF8B0E;
+    letter-spacing: 1px;
+}
+
+/* Styles Active Links */
+a:link{
+    text-decoration: none;
+    color: #FFC030;
+    letter-spacing: 1px;
+}
+
+/* Styles Email Link */
+#email{
+    padding: 10px;
+}
+    /* Styles Email Link on Hover */
+    #email:hover{
+        background-color: rgba(36, 66, 130, .8);
+        border-radius: 1em;
+        text-shadow: 1px 1px 1px #FFA227, 1px 1px 1px #FFC030;
+        letter-spacing: 1px;
+    }
+
+
