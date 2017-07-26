@@ -282,6 +282,10 @@ input, textarea{
     letter-spacing: 1px;
 }
 
+#Contact {
+    max-height: 800px;
+}
+
 /* Styles Contact Information Container */
 #ContactInfo{
     width: 38%;
