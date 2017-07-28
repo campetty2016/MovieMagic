@@ -183,6 +183,7 @@ footer{
     height: 65px;
     font-size: 1vw;
     border-radius: 1em;
+    visibility: hidden;
     border: 2px groove #3860B8;
 }
 
